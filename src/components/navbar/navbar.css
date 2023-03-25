@@ -21,12 +21,47 @@
 
 .menu {
   width: 100%;
+  height: 27px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 10px;
   font-size: 0.9em;
-  margin-right: 5px;
+  margin-right: 15px;
+}
+
+.button {
+  width: 27px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bar1 {
+  background-color: blue;
+  width: 100%;
+  height: 3px;
+}
+
+.bar2 {
+  background-color: blue;
+  width: 70%;
+  height: 3px;
+}
+
+.bar3 {
+  background-color: blue;
+  width: 100%;
+  height: 3px;
+}
+
+.menuOpen {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 a {
@@ -52,7 +87,7 @@ a {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
   font-size: 1.2em;
 }
 

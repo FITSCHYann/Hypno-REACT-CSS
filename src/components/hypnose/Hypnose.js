@@ -3,7 +3,7 @@ import "./hypnose.css";
 
 function Hypnose() {
   return (
-    <div id="Accueil" className="global-hypnose">
+    <div id="Hypnose" className="global-hypnose">
       <div className="hypnose">Hypnose</div>
     </div>
   );

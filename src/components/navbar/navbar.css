@@ -38,6 +38,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  cursor: pointer;
 }
 
 .bar1,
@@ -62,7 +63,6 @@
 }
 
 .menuOpen {
-  background-color: #d9d9d9;
   padding: 0.5em 0em 0.5em 0.5em;
   height: auto;
   display: flex;
@@ -100,7 +100,7 @@ a {
   align-items: flex-end;
   justify-content: center;
   gap: 10px;
-  font-size: 1.1em;
+  font-size: 1.3em;
   color: #74645a;
 }
 

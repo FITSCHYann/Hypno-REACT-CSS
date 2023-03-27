@@ -1,10 +1,10 @@
 import React from "react";
-import "./hypnose.css";
+import "./quisuisje.css";
 
 function QuiSuisJe() {
   return (
-    <div id="QuiSuisJe" className="global-hypnose">
-      <div className="hypnose">Qui-suis-je</div>
+    <div id="QuiSuisJe" className="global-quisuisje">
+      <div className="quisuisje">Qui-suis-je</div>
     </div>
   );
 }

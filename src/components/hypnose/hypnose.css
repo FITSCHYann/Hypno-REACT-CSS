@@ -7,7 +7,6 @@
 }
 
 .hypnose {
-  border: 1px solid red;
   background-color: #d9d9d980;
   margin-top: 35vh;
   width: 100%;
@@ -15,4 +14,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.text-hypnose {
+  text-align: center;
 }

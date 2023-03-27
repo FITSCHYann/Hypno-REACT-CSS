@@ -2,9 +2,6 @@ import React from "react";
 import "./accueil.css";
 
 function Accueil() {
-  function rendezVous() {
-    console.log("test");
-  }
   return (
     <div id="Accueil" className="global-Accueil">
       <div className="Accueil">
@@ -13,12 +10,9 @@ function Accueil() {
           <div>sur lequel vous pouviez travailler...</div>
           <div>c'était vous ?</div>
         </div>
-        <div className="rendezVous" onClick={rendezVous}>
-          Prendre Rendez-vous
-        </div>
+        <a href="#Contact">Contactez-moi</a>
       </div>
     </div>
   );
 }
-
 export default Accueil;

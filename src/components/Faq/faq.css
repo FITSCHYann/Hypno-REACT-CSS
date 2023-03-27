@@ -1,4 +1,4 @@
-.global-hypnose {
+.global-faq {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -6,8 +6,7 @@
   align-items: center;
 }
 
-.hypnose {
-  border: 1px solid red;
+.faq {
   background-color: #d9d9d980;
   margin-top: 35vh;
   width: 100%;

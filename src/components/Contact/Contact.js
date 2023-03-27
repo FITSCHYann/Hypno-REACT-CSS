@@ -1,10 +1,10 @@
 import React from "react";
-import "./hypnose.css";
+import "./contact.css";
 
 function Contact() {
   return (
-    <div id="Contact" className="global-hypnose">
-      <div className="hypnose">Contact</div>
+    <div id="Contact" className="global-contact">
+      <div className="contact">Contact</div>
     </div>
   );
 }

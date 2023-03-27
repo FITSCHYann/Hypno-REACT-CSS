@@ -18,12 +18,10 @@
 }
 
 .text-acceuil {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-size: 1.2em;
   color: #74645a;
+  text-align: center;
+  padding: 5px;
 }
 
 .rendezVous {

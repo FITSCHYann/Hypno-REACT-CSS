@@ -41,52 +41,22 @@ function Navbar() {
         </div>
         {!openMenu ? null : (
           <div className="menuOpen">
-            <a
-              href="#Accueil"
-              onClick={() => {
-                setOpenMenu(false);
-              }}
-            >
+            <a href="#Accueil" onClick={menu}>
               Accueil
             </a>
-            <a
-              href="#QuiSuisJe"
-              onClick={() => {
-                setOpenMenu(false);
-              }}
-            >
+            <a href="#QuiSuisJe" onClick={menu}>
               Qui suis-je
             </a>
-            <a
-              href="#Hypnose"
-              onClick={() => {
-                setOpenMenu(false);
-              }}
-            >
+            <a href="#Hypnose" onClick={menu}>
               Hypnose
             </a>
-            <a
-              href="#Boutique"
-              onClick={() => {
-                setOpenMenu(false);
-              }}
-            >
+            <a href="#Boutique" onClick={menu}>
               Boutique
             </a>
-            <a
-              href="#Faq"
-              onClick={() => {
-                setOpenMenu(false);
-              }}
-            >
+            <a href="#Faq" onClick={menu}>
               Faq
             </a>
-            <a
-              href="#Contact"
-              onClick={() => {
-                setOpenMenu(false);
-              }}
-            >
+            <a href="#Contact" onClick={menu}>
               Contact
             </a>
           </div>
